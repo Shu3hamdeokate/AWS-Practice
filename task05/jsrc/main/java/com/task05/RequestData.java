@@ -8,10 +8,7 @@ import java.util.Map;
 @Getter
 @NoArgsConstructor
 @AllArgsConstructor
-public class Event {
-    private String id;
+public class RequestData {
     private int principalId;
-    private String createdAt;
-    private Map<String,String> body;
-
+    private Map<String, String> content;
 }
